@@ -1,0 +1,163 @@
+/* General Body Styles */
+body,html{
+	height: 100%;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	background-color: #f7f9fc;
+}
+
+/* Chat Container */
+.chat{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.card{
+	height: 500px;
+	width: 600px;
+	border-radius: 15px !important;
+	background-color: #ffffff !important;
+	border: none;
+	box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+}
+
+/* Chat Body (Message Area) */
+.msg_card_body{
+	overflow-y: auto;
+	padding: 20px;
+}
+
+/* Card Header */
+.card-header{
+	border-radius: 15px 15px 0 0 !important;
+	border-bottom: 1px solid #f0f0f0 !important;
+	padding: 1rem 1.5rem;
+}
+
+/* Card Footer */
+.card-footer{
+	border-radius: 0 0 15px 15px !important;
+	border-top: 1px solid #f0f0f0 !important;
+	padding: 1rem 1.5rem;
+}
+
+/* Message Input Field */
+.type_msg{
+	background-color: #f1f5f8 !important;
+	border: 1px solid #e6e9ed !important;
+	color: #333 !important;
+	height: 60px !important;
+	overflow-y: auto;
+	border-radius: 30px 0 0 30px !important;
+	padding-left: 20px;
+}
+.type_msg:focus{
+	box-shadow: none !important;
+    outline: 0px !important;
+    border-color: #007bff !important;
+}
+
+/* Send Button */
+.send_btn{
+	border-radius: 0 30px 30px 0 !important;
+	background-color: #007bff !important;
+	border:0 !important;
+	color: white !important;
+	cursor: pointer;
+	padding: 0 25px;
+    transition: background-color 0.2s ease;
+}
+.send_btn:hover {
+    background-color: #0056b3 !important;
+}
+
+/* User Avatars */
+.user_img{
+	height: 60px;
+	width: 60px;
+	border: 2px solid #f5f6fa;
+}
+.user_img_msg{
+	height: 40px;
+	width: 40px;
+	border: 2px solid #f5f6fa;
+}
+.img_cont{
+	position: relative;
+	height: 60px;
+	width: 60px;
+}
+.img_cont_msg{
+	height: 40px;
+	width: 40px;
+}
+
+/* Online Status Icon */
+.online_icon{
+	position: absolute;
+	height: 15px;
+	width:15px;
+	background-color: #4cd137;
+	border-radius: 50%;
+	bottom: 0.1em;
+	right: 0.1em;
+	border: 2px solid white;
+}
+
+/* User Info in Header */
+.user_info{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+.user_info span{
+	font-size: 20px;
+	color: #333;
+    font-weight: 700;
+}
+.user_info p{
+	font-size: 12px;
+	color: #6c757d;
+}
+
+/* Bot Message Bubble */
+.msg_cotainer{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 20px 20px 20px 5px;
+	background-color: #eef2fa;
+	padding: 12px 15px;
+	position: relative;
+    max-width: 75%;
+    color: #333;
+}
+
+/* User Message Bubble */
+.msg_cotainer_send{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 20px 20px 5px 20px;
+	background-color: #007bff;
+	padding: 12px 15px;
+	position: relative;
+    max-width: 75%;
+    color: white;
+}
+
+/* Timestamp Styles */
+.msg_time{
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	color: #999;
+	font-size: 10px;
+}
+.msg_time_send{
+	position: absolute;
+	right:0;
+	bottom: -20px;
+	color: #999;
+	font-size: 10px;
+}
+
